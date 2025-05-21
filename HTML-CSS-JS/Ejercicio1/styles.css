@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: black;
+}
+
+#header {
+    background-color:rgb(192, 192, 192);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 90px;
+    border-bottom: 20px solid black;
+    padding: 10px;
+}
+
+#Perfil {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Name {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#InfoPersonal {
+    background-color:rgb(192, 192, 192);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+#ListaDivInfo {
+    list-style-position: inside;
+    font-size: medium;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+div {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 10;
+    padding: 5%;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+}
+
+
+article {
+    background-color: rgb(192, 192, 192);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 10px;
+    margin-top: 70px;
+    width: 100%;
+    padding: 5px;
+}
+
+#Estudios {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#ListaEstudios {
+    list-style-position: inside;
+    font-size: medium;
+    margin-left: 10px;
+    padding-left: 0;
+}
+
+.Habilidades {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+}
+#aside_Habilidades {
+    background-color:rgb(192, 192, 192);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 70px;
+    width: 100%;
+    padding: 5px;
+} 
+.contenedor-habilidades {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+} 
+.bloque-habilidad {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 8px;
+}  
+.bloque-habilidad h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-bottom: 1px solid #666;
+} 
+.bloque-habilidad ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}  
+.bloque-habilidad li {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+
+#Hobbies {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+}
+#ListaHobbies {
+    list-style-position: inside;
+    font-size: medium;
+    margin-left: 10px;
+    padding-left: 0;
+}
+#footer {
+    background-color: rgb(192, 192, 192);
+    color:  black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    border-top: 20px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#PS {
+    font-size: xx-small;
+    text-align: right;
+    margin-top: 10px;
+}
