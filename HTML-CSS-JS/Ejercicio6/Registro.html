@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registrarse</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="/Imagenes/SoloLogo-Headerjpg.jpg" alt="">
+            <h1 id="title"> El Ateneo</h1>
+    </header>
+    <section>
+        <div id="register-container">
+        <h1>Registrarse</h1>
+        <br>
+    </div>
+    <div id="formulario">
+        <label for="nombre"><strong>Nombre:</strong></label>
+        <input type="text" id="nombre" name="nombre" required> <br> <br>
+        <label for="apellido"><strong>Apellido:</strong></label>
+        <input type="text" id="apellido" name="apellido" required> <br> <br>
+
+        <label for="FechaNacimiento"> <strong>Fecha de Nacimiento</strong></label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" required> <br> <br>
+
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" required> <br> <br>
+
+        <label for="password"><strong>Contraseña:</strong></label>
+        <input type="password" id="password" name="password" required> <br> <br>
+
+        <label for="Sexo"><strong>Sexo</strong></label>
+        <ul>
+            <li> <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre <br> </li>
+            <li> <input type="radio" id="mujer" name="sexo" value="mujer"> Mujer <br> </li>
+            <li> <input type="radio" id="otro" name="sexo" value="otro"> Otro <br> </li>
+        </ul>
+            
+
+        <label for="TemaFavorito"></label><strong> Tema Favorito:</strong>
+        <select name="tema" id="tema">
+            <option value="null">-Selecciona-</option>
+            <option value="CienciaFiccion">Ciencia Ficcion</option>          
+            <option value="Drama"> Drama</option>  
+            <option value="ComediaRomantica">Comedia Romantica</option>
+            <option value="Poesia">Poesia</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="Registrarse">
+    </div>  
+    </section>
+    <footer>
+        <p id="text-footer"> 
+            © 2025 El Ateneo. Todos los derechos reservados.
+            <a href="/Ejercicio6/TermYCond.html">Termino y Condiciones</a>
+            <a href="https://www.instagram.com/yenny_elateneo/">Instagram</a>
+        </p>
+        <a href="/Ejercicio6/Index.html">Volver al Inicio</a>
+    </footer>
+</body>
+</html>

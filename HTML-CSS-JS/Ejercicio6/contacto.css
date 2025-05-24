@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#contacto-container {
+    display: flex;
+    background-color: rgba(233, 233, 233, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+#tilte-contacto {
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+}
+
+#image-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    padding-right: 5px;
+}
+
