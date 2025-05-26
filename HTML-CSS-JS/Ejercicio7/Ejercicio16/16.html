@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portero Electrico</title>
+</head>
+<body>
+    <header>
+        Portero Electrico
+    </header>
+    <section>
+        <div class="portero">
+            <div class="container">
+                <input type="number" id="piso" readonly placeholder="   PISO" />
+            </div>
+            
+            <div class="container">
+                <input type="text" id="depto" readonly placeholder="DEPTO" />
+            </div>
+        </div>
+        
+        <div class="teclado">
+            <button onclick="ingresarNumero(1)">1</button>
+            <button onclick="ingresarNumero(2)">2</button>
+            <button onclick="ingresarNumero(3)">3</button>
+            <button onclick="ingresarNumero(4)">4</button>
+            <button onclick="ingresarNumero(5)">5</button>
+            <button onclick="ingresarNumero(6)">6</button>
+            <button onclick="ingresarNumero(7)">7</button>
+            <button onclick="ingresarNumero(8)">8</button>
+            <button onclick="ingresarNumero(9)">9</button>
+            <button onclick="ingresarNumero(0)">0</button>
+            <button onclick="llamar()">Llamar</button>
+            <button onclick="borrar()">Borrar</button>
+        </div>
+    
+        <div id="mensaje" class="mensaje"></div>
+
+    </section>
+    <footer>
+        <p>Bellizzi Tomas</p>
+        <p>Ejercicio 16</p>
+        <p>Legajo: 33431</p>
+    </footer>
+
+    <script src="16.js"></script>
+
+</body>
+</html>
